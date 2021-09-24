@@ -1,0 +1,35 @@
+project
+  css
+    style.css
+      .modal
+      .modal-content
+      .close
+      .close:hover, .close:focus
+      #snackbar
+      #snackbar.error
+      #snackbar.show
+      @-webkit-keyframes fadein
+      @keyframes fadein
+      @-webkit-keyframes fadeout
+      @keyframes fadeout
+      .tooltip
+      .tooltip .tooltiptext
+      .tooltip:hover .tooltiptext
+  includes
+    clases  [+public -private #protected _static]
+      database.php
+      user.php
+        class User
+        ~$id
+        ~$name
+        ~$pwd
+        +__construct(:array):User
+        _-checkUserData(name,pwd,id?):void
+        +get(property):User.property
+    functions.php
+    init.php
+  js
+    function.js
+  documentation.txt
+  index.php
+  userRequest.php
